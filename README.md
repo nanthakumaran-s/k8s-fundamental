@@ -124,7 +124,7 @@ velero install \
     --bucket <BUCKET_NAME> \
     --backup-location-config region=<REGION> \
     --snapshot-location-config region=<REGION> \
-    --secret-file /root/.aws/credentials
+    --secret-file ./aws-credentials.txt
 ```
 
 ```bash
@@ -146,7 +146,7 @@ velero install \
     --bucket <BUCKET_NAME> \
     --backup-location-config region=<REGION> \
     --snapshot-location-config region=<REGION> \
-    --secret-file /root/.aws/credentials
+    --secret-file ./aws-credentials.txt
 ```
 
 ```bash
